@@ -4,6 +4,8 @@ A responsive, multi-page marketing website for a serviced-apartment and property
 
 This repository is a **sanitised portfolio version** of a site I delivered for a real small business. The production site is live and maintained privately. Here, the client's name, branding, contact details, property listings, photography, reviews and company information have all been replaced with a fictional brand (*Fernhill Stays*), three fictional apartments and generated placeholder images. The structure, styling, scripts and interaction design are the same as production.
 
+**Live demo (fictional content):** <https://dadocode.github.io/business-website/>
+
 ![Home page](docs/screenshots/index.png)
 
 ## What the site does
