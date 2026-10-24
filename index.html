@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fernhill Stays | Well-run homes, calmly hosted</title>
+  <meta name="description" content="Fictional serviced-apartment operator used as a website demo.">
+  <link rel="canonical" href="https://www.example.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.example.com/">
+  <meta property="og:title" content="Fernhill Stays | Thoughtfully hosted homes in central London">
+  <meta property="og:description" content="Serviced apartments and property management across London's best connected neighbourhoods.">
+  <meta property="og:image" content="https://www.example.com/assets/images/og-image.png">
+  <meta name="theme-color" content="#22392F">
+  <link rel="icon" href="assets/brand/favicon-64.png" sizes="64x64">
+  <link rel="apple-touch-icon" href="assets/brand/favicon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/images/home-hero.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://www.example.com/#organisation","name":"Fernhill Stays","legalName":"Fernhill Stays","url":"https://www.example.com/","logo":"https://www.example.com/assets/brand/logo-colour.png","image":"https://www.example.com/assets/images/og-image.png","description":"Fictional serviced-apartment business used for a website portfolio demo.","telephone":"+44 20 7946 0000","email":"hello@example.com","areaServed":{"@type":"City","name":"London"},"address":{"@type":"PostalAddress","addressLocality":"London","addressCountry":"GB"},"sameAs":["#","#"]},{"@type":"WebSite","name":"Fernhill Stays","url":"https://www.example.com/","publisher":{"@id":"https://www.example.com/#organisation"}}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header hero-attached">
+    <div class="wrap nav">
+      <a class="brand" href="/" aria-label="Fernhill Stays, home"><img class="logo-colour" src="assets/brand/logo-colour.png" alt="Fernhill Stays"><img class="logo-white" src="assets/brand/logo-white.png" alt="" aria-hidden="true"></a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="/" aria-current="page">Home</a></li>
+          <!-- nav:portfolio --><li class="nav-drop">
+            <span class="nav-drop-head"><a href="/homes">Our Portfolio</a><button class="nav-drop-toggle" type="button" aria-expanded="false" aria-controls="portfolio-menu" aria-label="Show properties"><svg viewBox="0 0 12 7" aria-hidden="true" focusable="false"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></span>
+            <div class="nav-drop-panel" id="portfolio-menu">
+              <div class="nav-drop-inner">
+                <ul>
+                <li><a href="/home-riverside-court"><span class="nd-name">Riverside Court</span><span class="nd-area">Battersea</span></a></li>
+                <li><a href="/home-canal-view"><span class="nd-name">Canal View</span><span class="nd-area">Islington</span></a></li>
+                <li><a href="/home-maple-house"><span class="nd-name">Maple House</span><span class="nd-area">Hampstead</span></a></li>
+                </ul>
+                <a class="nav-drop-all" href="/homes">View all homes <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+          </li><!-- /nav:portfolio -->
+          <li><a href="/property-management">Property Management</a></li>
+          <li><a href="/collaborations">Collaborations</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-right">
+        <a class="btn btn-primary" href="/contact">Enquire</a>
+        <button class="nav-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="/">Home</a>
+    <!-- mnav:portfolio --><div class="m-drop">
+      <button class="m-drop-toggle" type="button" aria-expanded="false" aria-controls="m-portfolio-menu">Our Portfolio <svg viewBox="0 0 12 7" aria-hidden="true" focusable="false"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <div class="m-drop-panel" id="m-portfolio-menu">
+        <a href="/home-riverside-court"><span class="m-name">Riverside Court</span><span class="m-area">Battersea</span></a>
+        <a href="/home-canal-view"><span class="m-name">Canal View</span><span class="m-area">Islington</span></a>
+        <a href="/home-maple-house"><span class="m-name">Maple House</span><span class="m-area">Hampstead</span></a>
+        <a class="m-drop-all" href="/homes">View all homes</a>
+      </div>
+    </div>
+    <!-- /mnav:portfolio -->
+    <a href="/property-management">Property Management</a>
+    <a href="/collaborations">Collaborations</a>
+    <a href="/about">About Us</a>
+    <a href="/contact">Contact</a>
+    <a class="btn btn-primary btn-block" href="/contact">Enquire</a>
+  </div>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero-bg"><img width="2000" height="1125" src="assets/images/home-hero.jpg" alt="" fetchpriority="high"></div>
+      <div class="hero-curtain" aria-hidden="true"><span></span><span></span></div>
+      <div class="wrap hero-inner hero-anim">
+        <p class="eyebrow">Serviced apartments</p>
+        <h1 class="display">Well-run homes, <em>calmly hosted</em></h1>
+        <p>Furnished apartments for short and longer stays, looked after by a small operations team. For owners, a managed let with clear monthly reporting.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/homes">Find your stay <span class="arw" aria-hidden="true">&rarr;</span></a>
+          <a class="btn btn-line-light" href="/property-management">Let us manage your property</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Positioning ===== -->
+    <section class="section">
+      <div class="wrap measure" style="margin-inline:auto;text-align:center">
+        <p class="eyebrow reveal" style="justify-content:center">Who we are</p>
+        <p class="h2 reveal" data-d="1" style="font-family:var(--serif)">A small portfolio, <span class="accent">managed carefully.</span></p>
+        <p class="lede reveal" data-d="2" style="margin-top:22px">We run a handful of serviced apartments in well-connected parts of the city. Pricing, cleaning, maintenance and guest messages are handled in one place, so guests get a consistent stay and owners get a property that is properly looked after.</p>
+      </div>
+    </section>
+
+
+    <!-- At a glance -->
+    <section class="section-sm">
+      <div class="wrap">
+        <div class="facts facts-3 reveal">
+          <div class="fact"><div class="num"><span data-count="12">12</span>+</div><div class="lab">Apartments managed</div></div>
+          <div class="fact"><div class="num">&pound;<span data-count="3">3</span>m</div><div class="lab">Property under management</div></div>
+          <div class="fact"><div class="num">4.9<span class="unit">&#9733;</span></div><div class="lab">Average guest rating</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Guest / Owner split ===== -->
+    <section class="reveal">
+      <div class="split">
+        <a class="split-panel" href="/homes">
+          <span class="split-bg"><img width="1100" height="1375" src="assets/images/guest-path.jpg" alt=""></span>
+          <span class="split-inner">
+            <span class="eyebrow">For guests</span>
+            <h2>Find a home for your stay</h2>
+            <p>See each apartment and ask about dates and rates.</p>
+            <span class="tlink">Explore the homes <span class="arw" aria-hidden="true">&rarr;</span></span>
+          </span>
+        </a>
+        <a class="split-panel" href="/property-management">
+          <span class="split-bg"><img width="1100" height="1375" src="assets/images/owner-path.jpg" alt=""></span>
+          <span class="split-inner">
+            <span class="eyebrow">For owners</span>
+            <h2>Let us manage your property</h2>
+            <p>Choose full management or a fixed monthly rent.</p>
+            <span class="tlink">Explore management <span class="arw" aria-hidden="true">&rarr;</span></span>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== Rooflines divider ===== -->
+    <div class="rooflines" aria-hidden="true">
+      <div class="wrap" style="display:flex;align-items:center;gap:24px;justify-content:center">
+        <span style="flex:1;max-width:220px;height:1px;background:var(--line)"></span>
+        <svg viewBox="0 0 100 54" width="78" height="42" style="overflow:visible"><path d="M4 30 L20 14 L36 30 M8 30 V50 H32 V30 M17 38 h6 v12 h-6 z M34 30 L50 14 L66 30 M38 30 V50 H62 V30 M47 38 h6 v12 h-6 z M64 30 L80 14 L96 30 M68 30 V50 H92 V30 M77 38 h6 v12 h-6 z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>
+        <span style="flex:1;max-width:220px;height:1px;background:var(--line)"></span>
+      </div>
+    </div>
+
+    <!-- ===== Featured home ===== -->
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="editorial">
+          <a class="figure r-3x2 unveil" href="/home-riverside-court" aria-label="View Riverside Court">
+            <img width="1500" height="1000" src="assets/images/featured-cover.jpg" alt="Riverside Court, Charing Cross Road" loading="lazy">
+          </a>
+          <div class="editorial-text reveal" data-d="1">
+            <span class="side-label">Featured home</span>
+            <h2 class="h2">Riverside Court</h2>
+            <p>A light-filled two bedroom apartment on the fourth floor of a modern riverside building, with a private balcony and an open-plan living and dining room.</p>
+            <p style="color:var(--pine);font-family:var(--serif);font-size:1.15rem;margin-top:16px">3 bedrooms &nbsp;·&nbsp; 2 bathrooms &nbsp;·&nbsp; 6 guests &nbsp;·&nbsp; 1 min to the tube</p>
+            <a class="btn btn-line" href="/home-riverside-court">View this home <span class="arw" aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Hosting approach ===== -->
+    <section class="section paper-band">
+      <div class="wrap">
+        <div class="section-head reveal" style="margin-bottom:clamp(36px,5vw,58px)">
+          <p class="eyebrow">What we do</p>
+          <h2 class="h2">Our services</h2>
+        </div>
+        <div class="feature-grid">
+          <div class="feature reveal">
+            <svg class="fmark" viewBox="0 0 100 54" aria-hidden="true"><path d="M4 30 L20 14 L36 30 M8 30 V50 H32 V30 M17 38 h6 v12 h-6 z M34 30 L50 14 L66 30 M38 30 V50 H62 V30 M47 38 h6 v12 h-6 z M64 30 L80 14 L96 30 M68 30 V50 H92 V30 M77 38 h6 v12 h-6 z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>
+            <h3>Property Management</h3>
+            <p>Listing, pricing, guest messaging, cleaning and repairs are handled for you. You keep the booking income, less a management fee, and receive a monthly performance report.</p>
+          </div>
+          <div class="feature reveal" data-d="1">
+            <svg class="fmark" viewBox="0 0 100 54" aria-hidden="true"><path d="M8 50 V17 M8 33 H92 M92 33 V50 M5 43 H95 M18 33 V25 h19 v8" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></svg>
+            <h3>Serviced Apartments</h3>
+            <p>Furnished apartments with fresh linen, a working kitchen, fast Wi-Fi and somewhere to work. Bookable by the night, the week or the month.</p>
+          </div>
+          <div class="feature reveal" data-d="2">
+            <svg class="fmark" viewBox="0 0 100 54" aria-hidden="true"><path d="M50 13 L71 20 V33 c0 9 -10 13 -21 16 c-11 -3 -21 -7 -21 -16 V20 Z M41 31 l6 6 l13 -13" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></svg>
+            <h3>Rent Guarantee</h3>
+            <p>A fixed monthly payment for the length of the agreement, with day-to-day running handled by us.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Property management intro ===== -->
+    <section class="section">
+      <div class="wrap">
+        <div class="editorial flip">
+          <div class="figure r-3x2 unveil"><img width="1500" height="1000" src="assets/images/hosting.jpg" alt="" loading="lazy"></div>
+          <div class="editorial-text reveal" data-d="1">
+            <span class="side-label">For property owners</span>
+            <h2 class="h2">Letting your property with us</h2>
+            <p>Photography, pricing, guest checks, cleaning and maintenance are covered. Pick a revenue-share model with monthly reporting, or a fixed rent.</p>
+            <a class="tlink" href="/property-management">Explore property management <span class="arw" aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Where we host ===== -->
+    <section class="section pine-band on-pine">
+      <div class="wrap two-col">
+        <div class="reveal">
+          <p class="eyebrow">Where we host</p>
+          <h2 class="h2">Where we <em>operate</em></h2>
+          <p style="margin-top:18px">The apartments are in Battersea, Islington and Hampstead, each close to a station.</p>
+          <p style="margin-top:14px">Location and transport links come first when we take on a property.</p>
+          <div data-marquee style="margin-top:26px"><span>Battersea</span><span>Islington</span><span>Hampstead</span><span>Riverside</span><span>Canal side</span></div>
+        </div>
+        <div class="figure r-3x2 unveil"><img width="1500" height="1000" src="assets/images/rooted-london.jpg" alt="An elegant London residential street" loading="lazy"></div>
+      </div>
+    </section>
+
+
+    <!-- Distribution -->
+    <section class="section-sm" style="padding-bottom:clamp(20px,2.5vw,32px)">
+      <div class="wrap">
+        <p class="eyebrow reveal">Listed everywhere your guests book</p>
+        <div class="platforms reveal" data-d="1">
+          <span class="platform-logo"><img src="assets/brand/platforms/airbnb.png" alt="Airbnb" loading="lazy"></span>
+          <span class="platform-logo"><img src="assets/brand/platforms/booking.png" alt="Booking.com" loading="lazy"></span>
+          <span class="platform-logo"><img src="assets/brand/platforms/vrbo.png" alt="Vrbo" loading="lazy"></span>
+          <span class="platform-logo"><img src="assets/brand/platforms/expedia.png" alt="Expedia" loading="lazy"></span>
+          <span class="platform-logo"><img src="assets/brand/platforms/agoda.png" alt="Agoda" loading="lazy"></span>
+          <span class="platform-logo"><img src="assets/brand/platforms/google-vr.png" alt="Google Vacation Rentals" loading="lazy"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Google reviews ===== -->
+    <section class="section-sm reviews" id="reviews" style="padding-top:clamp(20px,2.5vw,32px)">
+      <div class="wrap">
+        <div class="section-head reveal" style="text-align:center;margin-bottom:clamp(22px,3vw,34px)">
+          <p class="eyebrow" style="justify-content:center">Feedback</p>
+          <h2 class="h2">What guests and owners say</h2>
+          <p class="reviews-summary" style="margin-top:14px"><span class="rs-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span>Sample testimonials</span></p>
+        </div>
+        <div class="reviews-carousel reveal" data-d="1" data-review-carousel>
+          <button class="rc-nav rc-prev" type="button" aria-label="Previous reviews">&#8249;</button>
+          <div class="rc-track" tabindex="0">
+
+            <figure class="review-card">
+              <div class="rc-head"><span class="rc-avatar" style="background:#4285F4">A</span><div><p class="rc-name">Guest 1</p><p class="rc-meta">Sample review</p></div></div>
+              <div class="rc-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote>Spotless apartment, quick replies and a very easy check-in. Exactly as described.</blockquote>
+              <figcaption class="rc-date">A month ago</figcaption>
+            </figure>
+
+            <figure class="review-card">
+              <div class="rc-head"><span class="rc-avatar" style="background:#0F9D58">L</span><div><p class="rc-name">Guest 2</p><p class="rc-meta">Sample review</p></div></div>
+              <div class="rc-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote>Professional, responsive team. They handled everything and kept us updated throughout.</blockquote>
+              <figcaption class="rc-date">2 months ago</figcaption>
+            </figure>
+
+            <figure class="review-card">
+              <div class="rc-head"><span class="rc-avatar" style="background:#7E57C2">S</span><div><p class="rc-name">Guest 3</p><p class="rc-meta">Sample review</p></div></div>
+              <div class="rc-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote>Handing over my flat was straightforward and the monthly reports are clear.</blockquote>
+              <figcaption class="rc-date">A year ago</figcaption>
+            </figure>
+
+            <figure class="review-card">
+              <div class="rc-head"><span class="rc-avatar" style="background:#DB4437">Y</span><div><p class="rc-name">Guest 4</p><p class="rc-meta">Sample review</p></div></div>
+              <div class="rc-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote>Comfortable, well-equipped home in a great location. Would happily stay again.</blockquote>
+              <figcaption class="rc-date">A year ago</figcaption>
+            </figure>
+
+            <figure class="review-card">
+              <div class="rc-head"><span class="rc-avatar" style="background:#5C6BC0">A</span><div><p class="rc-name">Guest 5</p><p class="rc-meta">Sample review</p></div></div>
+              <div class="rc-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote>Reliable payments and the property is kept in excellent condition.</blockquote>
+              <figcaption class="rc-date">A year ago</figcaption>
+            </figure>
+
+            <figure class="review-card">
+              <div class="rc-head"><span class="rc-avatar" style="background:#00897B">J</span><div><p class="rc-name">Guest 6</p><p class="rc-meta">Sample review</p></div></div>
+              <div class="rc-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote>Great communication from enquiry to check-out.</blockquote>
+              <figcaption class="rc-date">A year ago</figcaption>
+            </figure>
+
+          </div>
+          <button class="rc-nav rc-next" type="button" aria-label="Next reviews">&#8250;</button>
+        </div>
+        <div style="text-align:center;margin-top:clamp(24px,3vw,34px)">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta">
+      <div class="wrap reveal">
+        <div class="dots" aria-hidden="true">· · ·</div>
+        <h2>Planning a stay, or <em>letting a property</em>?</h2>
+        <p>Send your dates and we will suggest an apartment. Own a flat? Tell us about it and we will estimate what it could earn.</p>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="/contact?reason=guest">Check availability</a>
+          <a class="btn btn-line-light" href="/contact?reason=owner">See what your property could earn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="/" aria-label="Fernhill Stays, home"><img src="assets/brand/logo-white.png" alt="Fernhill Stays"></a>
+        <div class="social-links">
+          <a href="#" target="_blank" rel="noopener">Instagram</a>
+          <a href="#" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+      <div class="footer-col"><h3>Explore</h3><ul>
+        <li><a href="/" aria-current="page">Home</a></li>
+        <li><a href="/homes">Our Portfolio</a></li>
+        <li><a href="/property-management">Property Management</a></li>
+        <li><a href="/collaborations">Collaborations</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul></div>
+      <div class="footer-col"><h3>Enquiries</h3><ul>
+        <li><a href="/contact?reason=guest">Book a stay</a></li>
+        <li><a href="/contact?reason=owner">Manage my property</a></li>
+        <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+        <li><a href="tel:+442079460000">+44 20 7946 0000</a></li>
+      </ul></div>
+      <div class="footer-col"><h3>Where we operate</h3><ul>
+        <li>Battersea</li>
+        <li>Islington</li>
+        <li>Hampstead</li>
+      </ul></div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>&copy; <span class="js-year">2026</span> Fernhill Stays is a fictional business used for this portfolio demo.</span>
+      <a href="/privacy">Privacy policy</a>
+    </div>
+  </footer>
+
+  <!-- WhatsApp -->
+  <a class="wa-float" href="https://wa.me/442079460000" target="_blank" rel="noopener" aria-label="Message Fernhill Stays on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="wa-bubble" fill="currentColor" d="M12 2a10 10 0 0 0-8.53 15.23L2.05 22l4.9-1.38A10 10 0 1 0 12 2z"/><path class="wa-handset" d="M8.62 7.35c.3-.1.63.02.78.3l.85 1.6c.14.27.09.6-.12.81l-.7.72c.5.99 1.3 1.79 2.29 2.29l.72-.7c.21-.21.54-.26.81-.12l1.6.85c.28.15.4.48.3.78-.3.92-1.2 1.5-2.16 1.39-3.12-.35-5.6-2.83-5.95-5.95-.11-.96.47-1.86 1.39-2.16z"/></svg><span class="wa-label">Chat on WhatsApp</span></a>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/motion.js" defer></script>
+</body>
+</html>
